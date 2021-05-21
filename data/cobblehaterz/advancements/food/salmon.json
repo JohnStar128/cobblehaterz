@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:salmon"
+    },
+    "title": "Ate salmon",
+    "description": "Ate salmon",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "frame":"goal",
+    "hidden": false
+  },
+  "parent": "cobblehaterz:food/root",
+  "criteria": {
+    "salmon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:salmon"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cobblehaterz:scores/add_point"
+  }
+}

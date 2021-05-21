@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond"
+    },
+    "title": "Block tracking",
+    "description": "Handling points for blocks placed",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "frame":"goal",
+    "hidden": false,
+    "background": "minecraft:textures/block/blackstone.png"
+  },
+  "criteria": {
+    "blocks": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

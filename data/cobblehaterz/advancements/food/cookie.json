@@ -1,0 +1,27 @@
+{
+  "display": {
+      "icon": {
+        "item": "minecraft:cookie"
+      },
+      "title": "Ate cookie",
+      "description": "Ate cookie",
+      "announce_to_chat": false,
+      "show_toast": false,
+      "frame":"goal",
+      "hidden": false
+  },
+  "parent": "cobblehaterz:food/root",
+  "criteria": {
+    "cookie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cookie"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cobblehaterz:scores/add_point"
+  }
+}

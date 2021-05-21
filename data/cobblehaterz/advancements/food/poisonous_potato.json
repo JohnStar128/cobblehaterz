@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:poisonous_potato"
+    },
+    "title": "Ate poisonous_potato",
+    "description": "Ate poisonous_potato",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "frame":"goal",
+    "hidden": false
+  },
+  "parent": "cobblehaterz:food/root",
+  "criteria": {
+    "poisonous_potato": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:poisonous_potato"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cobblehaterz:scores/add_point"
+  }
+}

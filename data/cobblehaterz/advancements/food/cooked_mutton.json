@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_mutton"
+    },
+    "title": "Ate cooked_mutton",
+    "description": "Ate cooked_mutton",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "frame":"goal",
+    "hidden": false
+  },
+  "parent": "cobblehaterz:food/root",
+  "criteria": {
+    "cooked_mutton": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_mutton"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cobblehaterz:scores/add_point"
+  }
+}

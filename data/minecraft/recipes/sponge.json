@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:barrier"
+  },
+  "result": "minecraft:sponge",
+  "experience": 0.15,
+  "cookingtime": 200
+}

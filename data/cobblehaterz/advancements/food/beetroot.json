@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:beetroot"
+    },
+    "title": "Ate beetroot",
+    "description": "Ate beetroot",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "frame":"goal",
+    "hidden": false
+  },
+  "parent": "cobblehaterz:food/root",
+  "criteria": {
+    "beetroot": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:beetroot"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cobblehaterz:scores/add_point"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+        "item": "minecraft:cooked_cod"
+    },
+    "title": "Ate cooked cod",
+    "description": "Ate cooked_cod",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "frame":"goal",
+    "hidden": false
+  },
+  "parent": "cobblehaterz:food/root",
+  "criteria": {
+    "cooked_cod": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_cod"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cobblehaterz:scores/add_point"
+  }
+}

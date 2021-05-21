@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "title": "Placed lapis",
+    "description": "Placed lapis block",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "frame":"goal",
+    "hidden": false
+  },
+  "parent": "cobblehaterz:blocks/root",
+  "criteria": {
+    "blank": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:lapis_block"
+      }
+    }
+  },
+  "rewards": {
+    "function": "cobblehaterz:scores/placed_lapis"
+  }
+}

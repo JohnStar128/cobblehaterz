@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:barrier"
+  },
+  "result": "minecraft:redstone",
+  "experience": 0.7,
+  "cookingtime": 100
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+        "item": "minecraft:porkchop"
+    },
+    "title": "Ate porkchop",
+    "description": "Ate porkchop",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "frame":"goal",
+    "hidden": false
+  },
+  "parent": "cobblehaterz:food/root",
+  "criteria": {
+    "raw_porkchop": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:porkchop"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cobblehaterz:scores/add_point"
+  }
+}

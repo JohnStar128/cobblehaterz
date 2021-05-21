@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+        "item": "minecraft:apple"
+    },
+    "title": "Ate Apple",
+    "description": "Ate an apple",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "frame": "task",
+    "hidden": true
+  },
+  "parent": "cobblehaterz:food/root",
+  "criteria": {
+    "apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:apple"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cobblehaterz:scores/add_point"
+  }
+}

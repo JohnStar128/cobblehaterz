@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+        "item": "minecraft:honey_bottle"
+      },
+    "title": "Food",
+    "description": "Food tracker",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "frame":"goal",
+    "hidden": false,
+    "background": "minecraft:textures/block/stone.png"
+  },
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "slots": {
+          "empty": 0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+execute as @e[type=zombie_villager] at @s run data merge entity @s {VillagerData:{profession:"minecraft:nitwit",lvl:1}}
