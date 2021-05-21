@@ -3,7 +3,30 @@
 One of the original Iron Man challenges for Minecraft brought to the modern day!
 
 ---
+### Installing
 
+Git method:
+```
+Windows:
+cd %AppData%\.minecraft\saves\world\datapacks
+git clone https://github.com/JohnStar128/cobblehaterz.git
+/reload or close and reopen your world
+
+Linux:
+cd .minecraft/saves/world/datapacks
+git clone https://github.com/JohnStar128/cobblehaterz.git
+/reload or close and reopen your world
+```
+.zip method
+```
+Click the green `Code` button in the top right of the page, right next to the About panel
+Click `Download ZIP`
+Save it to wherever you want
+drag it to one of the save locations mentioned in the git method
+/reload or close and reopen your world
+```
+
+---
 ### Rules
 One simple rule: **NO COBBLESTONE!!!** This goes for blackstone and Deepslate as well.\
 There are some safeguards in place to make sure cobblestone tools, blocks or blocks made with cobblestone cannot be acquired.
