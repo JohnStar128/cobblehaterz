@@ -8,22 +8,33 @@ One of the original Iron Man challenges for Minecraft brought to the modern day!
 Git method:
 ```
 Windows:
-cd %AppData%\.minecraft\saves\world\datapacks
+cd C:\whereever\you\wanna\clone
 git clone https://github.com/JohnStar128/cobblehaterz.git
-/reload or close and reopen your world
+Create a new world
+Click the Data Packs button
+Click Open Pack Folder button
+Navigate to where you cloned the repo and drag or copy it into this folder
+Add it in the game menu and create your world
 
 Linux:
-cd .minecraft/saves/world/datapacks
+cd /path/to/where/you/wanna/clone
 git clone https://github.com/JohnStar128/cobblehaterz.git
-/reload or close and reopen your world
+Create a new world
+Click the Data Packs button
+Click Open Pack Folder button
+Navigate to where you cloned the repo and drag or copy it into this folder
+Add it in the game menu and create your world
 ```
 .zip method
 ```
 Click the green `Code` button in the top right of the page, right next to the About panel
 Click `Download ZIP`
 Save it to wherever you want
-drag it to one of the save locations mentioned in the git method
-/reload or close and reopen your world
+Create a new world
+Click the Data Packs button
+Click Open Pack Folder button
+Navigate to where you downloaded the repo and drag or copy it into this folder. You wont have to unzip it
+Add it in the game menu and create your world
 ```
 
 ---
